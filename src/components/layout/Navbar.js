@@ -8,10 +8,10 @@ const Navbar = (props) => {
       <h1>{props.title}</h1>
       <ul>
         <li>
-          <Link to='about'>about</Link>
+          <Link to='/about'>About</Link>
         </li>
         <li>
-          <Link to='/'>home</Link>
+          <Link to='/'>Home</Link>
         </li>
       </ul>
     </div>
