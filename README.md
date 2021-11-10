@@ -1,27 +1,72 @@
-# Getting Started with Create React App
+React App - GitHub user search app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React App that interacts with the Github public API. I built this using classes and intend to update it to use hooks in order to have a side by side comparison of the exact same project developed using classes and hooks.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Overview
+This project uses the Github public API to allow users to search for Github users by their username and returns a list of Github users that the user can select an individual user to retreive more details about their Github account and repos. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### The challenge
 
-# React Router Dom
+Users should be able to:
 
-##npm i react-router-dom
+- Search for GitHub users by their username
+- See relevant user information based on their search
+- Select an individual user to be brought to another page displaying more information
 
-# Axios
+### Links
 
-##npm i axios
+- Live Site URL: ()
 
-# Links
 
-Using links instead of a tags
+## My process
+
+### Built with
+
+- React
+- React Router
+- Props
+- Custom CSS
+- Github API
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+## Author
+
+- Linkedin - [Stephen Moran](https://www.linkedin.com/in/stephen-moran-/)
+- Github - [StephensGit](https://github.com/StephensGit)
+
